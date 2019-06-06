@@ -47,6 +47,5 @@ println 'This is a Sample Print Statement'
 println "${systemProperties.HOME}"
 println "${System.getProperty('USER')}"
 
-println "$HOME"
-println "$USER"
+println "${System.getenv("USER")}"
 println '======================================================================================='
