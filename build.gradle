@@ -44,5 +44,5 @@ println '                                   Display Zone                        
 println '======================================================================================='
 println 'This is a Sample Print Statement'
 
-println "System property HOME is ${systemProperties.HOME}"
+println 'system property home is ${systemProperties.HOME}'
 println '======================================================================================='
