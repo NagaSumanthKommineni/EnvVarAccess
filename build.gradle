@@ -40,11 +40,13 @@ println '=======================================================================
 println '                                   Display Zone                                        '
 println '======================================================================================='
 println 'This is a Sample Print Statement'
-
+println '-----------------------Accesing Environment variables----------------------------------'
 println "The home variable has value : ${System.getenv("HOME")}"
 println "The current user is: ${System.getenv("USER")}"
-
 println "LANG : ${System.getenv("LANG")}"
 println "PATH : ${System.getenv("PATH")}"
 
+println '-----------------------Accesing System properties--------------------------------------'
+ext.systemProperties= System.properties
+println "PATH : ${systemProperties.user.home}"
 println '======================================================================================='
