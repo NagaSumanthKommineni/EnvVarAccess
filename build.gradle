@@ -50,5 +50,5 @@ println '-----------------------Accesing System properties----------------------
 println "User Home : ${System.getProperty('user.home')}"
 println "User language : ${System.getProperty('user.language')}"
 println "User name : ${System.getProperty('user.name')}"
-println "User timezone : ${System.getProperty('user.timezone')}"
+println "Java Home : ${System.getProperty('java.home')}"
 println '======================================================================================='
