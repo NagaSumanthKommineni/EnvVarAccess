@@ -35,3 +35,8 @@ test {
     // Use TestNG for unit tests
     useTestNG()
 }
+
+
+home = System.getenv('HOME')
+
+println 'This is a Sample Print Statement'
