@@ -46,4 +46,5 @@ println "The current user is: ${System.getenv("USER")}"
 
 println "LANG : ${System.getenv("LANG")"
 println "PATH : ${System.getenv("PATH")"
+
 println '======================================================================================='
