@@ -36,16 +36,12 @@ test {
     useTestNG()
 }
 
-ext.systemProperties= System.properties
-println 'system property home is ${systemProperties.HOME}'
-
 println '======================================================================================='
 println '                                   Display Zone                                        '
 println '======================================================================================='
 println 'This is a Sample Print Statement'
 
-println "${systemProperties.HOME}"
-println "${System.getProperty('USER')}"
+println "The home variable has value : ${System.getenv("HOME")}"
+println "The current user is: ${System.getenv("USER")}"
 
-println "${System.getenv("USER")}"
 println '======================================================================================='
