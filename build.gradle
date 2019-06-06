@@ -36,13 +36,13 @@ test {
     useTestNG()
 }
 
-
-home = "$System.getenv('HOME')"
+ext.systemProperties= System.properties
+println “System property HOME is ${systemProperties.HOME}”
 
 println '======================================================================================='
 println '                                   Display Zone                                        '
 println '======================================================================================='
 println 'This is a Sample Print Statement'
 
-println $home
+println "System property HOME is ${systemProperties.HOME}"
 println '======================================================================================='
