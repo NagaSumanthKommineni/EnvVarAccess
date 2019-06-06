@@ -37,6 +37,6 @@ test {
 }
 
 
-home = System.getenv('HOME')
+//home = System.getenv('HOME')
 
 println 'This is a Sample Print Statement'
