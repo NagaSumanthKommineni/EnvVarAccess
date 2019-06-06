@@ -37,7 +37,7 @@ test {
 }
 
 ext.systemProperties= System.properties
-println “system property HOME is ${systemProperties.HOME}”
+println “system property home is ${systemProperties.HOME}”
 
 println '======================================================================================='
 println '                                   Display Zone                                        '
