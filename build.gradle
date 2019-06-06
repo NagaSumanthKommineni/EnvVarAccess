@@ -44,7 +44,7 @@ println 'This is a Sample Print Statement'
 println "The home variable has value : ${System.getenv("HOME")}"
 println "The current user is: ${System.getenv("USER")}"
 
-println "LANG : ${System.getenv("LANG")"
-println "PATH : ${System.getenv("PATH")"
+println "LANG : ${System.getenv("LANG")}"
+println "PATH : ${System.getenv("PATH")}"
 
 println '======================================================================================='
